@@ -30,16 +30,20 @@
       - git
       - git-flow
       - heroku-toolbelt
+      - tmux
       - peco
       - nvm
       - rbenv
-      - rbenv-gem-rehash
+#      - rbenv-gem-rehash
       - ruby-build
       - the_silver_searcher
-      - vim
+#      - vim
+#      - macvim
+#      - { name: macvim, install_options: [with-cscope, with-lua, override-system-vim] }
       - zsh
       - zsh-completions
       - zsh-syntax-highlighting
+      - node
 
     # Tap external Homebrew Cask repositories.
     homebrew_cask_repositories:
@@ -59,11 +63,15 @@
       - google-chrome
       - google-japanese-ime
       - iterm2
-      - java6
-      - karabiner
-      - phpstorm
-      - rubymine
+      - java
+      - sourcetree
+#      - java6
+#      - karabiner
+#      - phpstorm
+#      - rubymine
       - slack
       - sublime-text
       - vagrant
       - virtualbox
+      - eclipse-jee
+      # - intellij-idea
