@@ -44,6 +44,8 @@
       - zsh-completions
       - zsh-syntax-highlighting
       - node
+      - svn
+      - { name: svn, install_options: [unicode-path] }
 
     # Tap external Homebrew Cask repositories.
     homebrew_cask_repositories:
@@ -75,3 +77,5 @@
       - virtualbox
       - eclipse-jee
       # - intellij-idea
+      - skype
+      - dropbox
